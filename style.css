@@ -204,8 +204,11 @@ header > section > h1 + h1 {
 
 #presentation p a {
     text-decoration: none;
-    color: #201034;
-    
+    color: #2A6A46;
+}
+
+#presentation p a:hover {
+    text-decoration: underline;
 }
 
 #presentation button {
