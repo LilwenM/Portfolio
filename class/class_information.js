@@ -27,7 +27,7 @@ class Information {
         image += "<div ";
              if (this.orientation === "R") { image += "class=\"m-r-30\""; }
         else if (this.orientation === "L") { image += "class=\"m-l-30\""; }
-        image += "><img class=\"information-image\" src=\"../img/" + this.image + "\"></div>";
+        image += "><img class=\"information-image\" src=\"./img/" + this.image + "\"></div>";
 
         information += "<div>"
             +   "<h5 class=\"m-b-15\">" + this.titre + "</h5>"

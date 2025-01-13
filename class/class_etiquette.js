@@ -36,7 +36,7 @@ class Etiquette {
             +           "<p>ref " + this.ref + "</p>"
             +       "</div>"
 
-            +       "<div class=\"etiquette-main\" style=\"background-image: url(../img/etiquette/" + this.img + ");\"></div>"
+            +       "<div class=\"etiquette-main\" style=\"background-image: url(./img/etiquette/" + this.img + ");\"></div>"
             
             +       "<div class=\"etiquette-bottom\">"
             +           "<h5>" + this.titre + "</h5>"
@@ -51,7 +51,7 @@ class Etiquette {
         
         str +=  "<div id=\"developpement-etiquette-id-" + this.id + "\" class=\"developpement-etiquette m-t-60\" style=\"display: none\">"
             +       "<div class=\"developpement-etiquette-top\">"
-            +           "<div class=\"developpement-etiquette-img\"><img class=\"information-image\" src=\"../img/etiquette/" + this.img + "\"></div>"
+            +           "<div class=\"developpement-etiquette-img\"><img class=\"information-image\" src=\"./img/etiquette/" + this.img + "\"></div>"
 
             +           "<div class=\"developpement-etiquette-information m-l-30\">"
             +               "<div class=\"developpement-etiquette-titre m-b-60\">"

@@ -18,7 +18,7 @@ class Langage {
         
         str +=  "<div class=\"langage\">"
             +       "<div class=\"langage-img\">"
-            +           "<img src=\"../img/langage/" + this.img + "\" alt=\"\" class=\"langage-img\">"
+            +           "<img src=\"./img/langage/" + this.img + "\" alt=\"\" class=\"langage-img\">"
             +       "</div>"
             
             +       "<div class=\"langage-main m-t-15\">"

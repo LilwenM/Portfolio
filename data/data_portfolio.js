@@ -209,14 +209,14 @@ const json_langage = [
 const json_footer = [
     {
         "information": "Localisation",
-        "picto": "../picto/location-white.png",
+        "picto": "location-white.png",
         "balise_deb" : "<p>",
         "balise_fin" : "</p>",
         "texte": "La Corderie - Plélo 22170 "
     },
     {
         "information": "Téléphone",
-        "picto": "../picto/telephone-white.png",
+        "picto": "telephone-white.png",
         "balise_deb" : "<p>",
         "balise_fin" : "</p>",
         "texte": "07 68 93 19 14"
@@ -224,7 +224,7 @@ const json_footer = [
 
     {
         "information": "E-mail",
-        "picto": "../picto/mail-white.png",
+        "picto": "mail-white.png",
         "balise_deb" : "<p><a href=\"mailto:lilwen.malestroit@gmail.com?subject=Portfolio%20-%20\" class=\"color-white a-text\">",
         "balise_fin" : "</a></p>",
         "texte": "lilwen.malestroit@gmail.com"
@@ -232,7 +232,7 @@ const json_footer = [
 
     {
         "information": "Linkedin",
-        "picto": "../picto/linkedin-white.png",
+        "picto": "linkedin-white.png",
         "balise_deb" : "<p><a href=\"https://www.linkedin.com/in/lilwen-malestroit\" class=\"color-white a-text\" target=\"_blank\">",
         "balise_fin" : "</a></p>",
         "texte": "Lilwen Malestroit"

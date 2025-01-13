@@ -28,7 +28,7 @@ class Footer {
 
         let str = "";
         str +=  "<div class=\"m-r-15\">"
-            +       "<img class=\"picto-max\" src=\"" + this.picto + "\">"
+            +       "<img class=\"picto-max\" src=\"./picto/" + this.picto + "\">"
             +   "</div>";
 
         str +=  "<div>"
