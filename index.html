@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr"></html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./class/class_liste.js"></script>
+    <script src="./class/class_etiquette.js"></script>
+    <script src="./class/class_information.js"></script>
+    <script src="./class/class_langage.js"></script>
+    <script src="./class/class_footer.js"></script>
+
+    <script src="./data/data_portfolio.js"></script>
+    <script src="./import/import_donnee_portfolio.js"></script>
+    <script src="./import/generation_carrousel.js"></script>
+
+    <script src="./script.js"></script>
+
+
+    <nav class="p-l-60 p-r-60 p-t-15 p-b-15 bck-color2 color-white">
+        <div><h2 id="bandeau_menu"></h2></div>
+        <div>
+            <div id="lien-liste"></div><div><button id="btn_menu" class="btn btn-color1"></button></div>
+        </div>
+    </nav>
+
+
+    <header>
+        <div class="p-l-60 p-r-60 bck-color2 color-white">
+            <div>
+                <div class="p-t-60 p-b-60">
+                    <div class="p-b-30"><h1 id="titre_principal"></h1></div>
+                    <div class="p-t-30">
+                        <h3 id="sous_titre" class="p-b-30"></h3>
+                        <button id="btn_header" class="btn btn-color1"></button>
+                    </div>
+                </div>
+                <div id="space-etiquette-entete" class="p-t-60 p-b-60"></div>
+            </div>
+        </div>
+
+        <div class="p-l-60 p-r-60 p-t-30 p-b-30 bck-color1 color-white"><h2 id="bandeau_transition"></h2></div>
+    </header>
+
+
+    <main class="p-l-60 p-r-60">
+        <div class="p-t-30 p-b-60">
+            <h2 id="section_1" class="p-b-30"></h2>
+            
+            <div class="carousel-container">
+                <button class="arrow left disabled" id="prev-btn">&lt;</button>
+                <div id="carousel" class="carousel"></div>
+                <button class="arrow right" id="next-btn">&gt;</button>
+                <div class="pagination" id="pagination"></div>
+            </div>
+            
+            <div id="space-etiquette-developpement"></div>
+
+            <!--<div id="space-etiquette-modal"></div>-->
+        </div>
+        
+        <hr>
+
+        <div class="p-t-30 p-b-60">
+            <h2 id="section_2" class="p-b-30"></h2>
+            <div id="informations" class="p-l-15 p-r-15"></div>
+        </div>
+
+        <hr>
+
+        <div class="p-t-30 p-b-60">
+            <h2 id="section_3" class="p-b-30"></h2>
+            <div id="langages"></div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div id="div_footer" class="p-l-60 p-r-60 p-t-15 p-b-15 bck-color2"></div>
+        <div class="p-l-60 p-r-60 p-t-15 p-b-15 bck-color1 color-white">
+            <p>Copyright © 2024 - Tous droits réservés. <a href="" class="color-white a-text"><strong>Mentions légales</strong></a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
